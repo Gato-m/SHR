@@ -6,6 +6,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="index" options={{ title: 'Prombūtne' }} />
       <Tabs.Screen name="adddata" options={{ title: 'Pievienot datus' }} />
       <Tabs.Screen name="staff" options={{ title: 'Personāls' }} />
+      <Tabs.Screen name="newUser" options={{ title: 'Jauns darbinieks' }} />
     </Tabs>
   );
 }
